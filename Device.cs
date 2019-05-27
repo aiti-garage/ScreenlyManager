@@ -51,6 +51,12 @@ namespace ScreenlyManager
 
         [Newtonsoft.Json.JsonProperty(PropertyName = "api_version")]
         public string ApiVersion { get; set; }
+        
+        [Newtonsoft.Json.JsonProperty(PropertyName = "username")]
+        public string Username { get; set; }
+
+        [Newtonsoft.Json.JsonProperty(PropertyName = "password")]
+        public string Password { get; set; } 
 
         [Newtonsoft.Json.JsonIgnore]
         public string HttpLink

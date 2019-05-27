@@ -73,7 +73,9 @@ namespace ScreenlyManager
                     Location = this.TextBoxLocation.Text,
                     IpAddress = this.TextBoxIp.Text,
                     Port = this.TextBoxPort.Text,
-                    ApiVersion = this.TextBoxApi.Text
+                    ApiVersion = this.TextBoxApi.Text,
+                    Username = this.TextBoxUser.Text,
+                    Password = this.TextBoxPW.Password,
                 };
                 this.Devices.Add(newDevice);
 
